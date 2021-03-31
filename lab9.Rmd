@@ -100,7 +100,8 @@ tab_seeds <- table(slice(
 1-sum(diag(tab_seeds))/sum(tab_seeds)
 ```
 
-**newpage**
+
+\newpage
 
 Let’s consider housing price data, Boston in MASS package.
 
@@ -283,7 +284,7 @@ tab
 1- sum(diag(tab))/sum(tab)
 ```
 
-
+\newpage
 ##Clustering -coffee data
 
 Let’s apply k-means for clustering.
@@ -389,7 +390,7 @@ ggplot(tibble(K = 2:8, avgSil = avgSil), aes(x = K, y = avgSil)) +
 
 For k-medoid for clustering, based on the average Silhouette width, we can use K=2.
 
-**newpage**
+\newpage
 
 ##Hierarchical clustering - divisive clustering - votes data
 
